@@ -1,0 +1,34 @@
+html(lang='en')
+  head
+    meta(charset='utf-8')
+    meta(name='viewport', content='width=1024')
+    meta(name='apple-mobile-web-app-capable', content='yes')
+    title
+      | Présentation
+    meta(name='description', content='try it')
+    meta(name='author', content='Bartek Szopka')
+    link(href='http://fonts.googleapis.com/css?family=Open+Sans:regular,semibold,italic,italicsemibold|PT+Sans:400,700,400italic,700italic|PT+Serif:400,700,400italic,700italic', rel='stylesheet')
+    link(href='main.css', rel='stylesheet')
+    link(rel='shortcut icon', href='favicon.png')
+    link(rel='apple-touch-icon', href='apple-touch-icon.png')
+  body
+    #impress
+
+      #title.step(data-x='1500', data-y='-2000', data-scale='4')
+        h1.hello Bonjour
+        h1.smiley : )
+
+      #first.step(data-x='-1000', data-y='1300' data-scale="5")
+        .big Grégory Bernard, 25 ans
+        div Ingénieur Etude et Dévelopement Front-end
+        br
+        div 5 ans d'expérience dans l'informatique
+        br
+        .activities Secteurs d'activités
+          .activity Agroalimentaire
+          .activity Energie
+          .activity Finance
+
+      #overview.step(data-x='10000', data-y='4500', data-scale='20')
+    script(src='js/impress.js')
+    script(src='js/helper.js')

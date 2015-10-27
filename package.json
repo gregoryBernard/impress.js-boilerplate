@@ -1,0 +1,15 @@
+{
+  "name": "presentation",
+  "dependencies": {
+  },
+  "private": true,
+  "devDependencies": {
+    "gulp": "^3.8.11",
+    "gulp-bower": "0.0.10",
+    "gulp-concat-css": "^2.2.0",
+    "gulp-connect": "^2.2.0",
+    "gulp-jade": "^1.0.0",
+    "gulp-open": "^0.3.2",
+    "gulp-stylus": "^2.0.1"
+  }
+}
