@@ -4,4 +4,4 @@
 
 ## get a prez
 
-‘npm i && gulp'
+`npm i && gulp`
